@@ -1,0 +1,63 @@
+.menu{
+
+background-color:purple;
+padding:10px;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+.menu ul{
+list-style-type:none ;
+margin:0;
+padding: 0;
+display:flex;
+justify-content:center;
+}
+
+.menu ul li{
+margin-right:20px;
+}
+
+.menu ul li a{
+color:purple;
+text-decoration:none;
+padding:10px 20px;
+background-color:palegreen;
+border-radius:5px;
+transition:backgrumd-color 0.3s ease;
+}
+
+.menu ul li a:hover{
+background-color:blue;
+}
+section{
+padding: 100px 20px;
+margin-top:60px;
+height: auto;
+background-color: aqua;
+}
+h1{
+font-size: 2.5em;
+color: blue;
+text-align: center;
+}
+p{
+font-size: 1.2em;
+color:green;
+text-align: center;
+}
+form{
+max-width: 500px;
+margin-top:20px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+width:100%;
+padding: 10px;
+margin-top: 10px;
+border: 1px solid white;
+border-radius: 5px;
+}
+
